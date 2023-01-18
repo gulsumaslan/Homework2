@@ -8,6 +8,205 @@ namespace Homework2
         static void Main(string[] args)
         {
 
+            
+
+            Console.WriteLine("Enter the month you were born");
+            string month = (Console.ReadLine());
+
+            Console.WriteLine("entered month: " + month);
+
+            Console.WriteLine("write down the day you were born");
+            int day = Convert.ToInt32(Console.ReadLine());
+
+
+            Console.WriteLine("entered day:" + day);
+          
+
+            if (month.Equals("January"))
+            {
+                if (day > 22)
+                {
+                    Console.WriteLine("Aquarius");
+                }
+                else
+                {
+                    Console.WriteLine("goat");
+                }
+
+
+
+            }
+            if (month.Equals("February"))
+            {
+                if (day> 20)
+                {
+                    Console.WriteLine("fish");
+                }
+                else
+                {
+                    Console.WriteLine("Aquarius");
+                }
+
+
+
+            }
+            if (month.Equals("March"))
+            {
+                if (day > 21)
+                {
+                    Console.WriteLine("ram");
+                }
+                else
+                {
+                    Console.WriteLine("fish");
+                }
+
+
+
+            }
+            if (month.Equals("April"))
+            {
+                if (day > 21)
+                {
+                    Console.WriteLine("Bull");
+                }
+                else
+                {
+                    Console.WriteLine("ram");
+                }
+
+
+
+            }
+            if (month.Equals("May"))
+            {
+                if (day > 22)
+                {
+                    Console.WriteLine("Twins");
+                }
+                else
+                {
+                    Console.WriteLine("Bull");
+                }
+
+
+
+            }
+            if (month.Equals("June"))
+            {
+                if (day > 22)
+                {
+                    Console.WriteLine("Crab");
+                }
+                else
+                {
+                    Console.WriteLine("Twins");
+                }
+
+
+
+            }
+            if (month.Equals("Jully"))
+            {
+                if (day > 22)
+                {
+                    Console.WriteLine("Lion");
+                }
+                else
+                {
+                    Console.WriteLine("Crab");
+                }
+
+
+
+            }
+            if (month.Equals("August"))
+            {
+                if (day > 22)
+                {
+                    Console.WriteLine("Virgo");
+                }
+                else
+                {
+                    Console.WriteLine("Lion");
+                }
+
+
+
+            }
+            if (month.Equals("September"))
+            {
+                if (day > 22)
+                {
+                    Console.WriteLine("Scales");
+                }
+                else
+                {
+                    Console.WriteLine("Virgo");
+                }
+
+
+
+            }
+            if (month.Equals("October"))
+            {
+                if (day > 22)
+                {
+                    Console.WriteLine("Scorpion");
+                }
+                else
+                {
+                    Console.WriteLine("Scales");
+                }
+
+
+
+            }
+            if (month.Equals("November"))
+            {
+                if (day > 22)
+                {
+                    Console.WriteLine("Arrow");
+                }
+                else
+                {
+                    Console.WriteLine("Scorpion");
+                }
+
+
+
+            }
+            if (month.Equals("December"))
+            {
+                if (day > 22)
+                {
+                    Console.WriteLine("Goat");
+                }
+                else
+                {
+                    Console.WriteLine("Arrow");
+                }
+
+
+
+            }
+
+
+
+
+
+
+            //if ((month== December && day >= 22) || (month = 1 && day = 21))
+            //{
+            //    Console.WriteLine("Capricorn");
+
+            //}
+            //else if ((month == 2 && day == 20) || (month == 3 && day == 20))
+            //{
+            //    Console.WriteLine("Pisces");
+
+            //}
+
             //Koç Burcu : 21 Mart – 20 Nisan
             //Boğa Burcu: 21 Nisan – 21 Mayıs
             //İkizler Burcu: 22 Mayıs – 22 Haziran
@@ -25,208 +224,6 @@ namespace Homework2
             //int gun = Convert.ToInt32(Console.ReadLine());
             //var ay = 1;
             //var gun = 20;
-
-
-            Console.WriteLine("doğduğunuz ayı giriniz");
-            string ay = (Console.ReadLine());
-
-            Console.WriteLine("girilen ay: " + ay);
-
-            Console.WriteLine("doğduğunuz günü yazınız");
-            int gun = Convert.ToInt32(Console.ReadLine());
-
-
-            Console.WriteLine("girilen gün:" + gun);
-            //string burc = "";
-
-
-
-            //Console.WriteLine(gun + " " + ay + " " + " gününde doğduysanız burcunuz:"+burc);
-
-            if (ay.Equals("Ocak"))
-            {
-                if (gun > 22)
-                {
-                    Console.WriteLine("kova");
-                }
-                else
-                {
-                    Console.WriteLine("oğlak");
-                }
-
-
-
-            }
-            if (ay.Equals("Şubat"))
-            {
-                if (gun > 20)
-                {
-                    Console.WriteLine("Balık");
-                }
-                else
-                {
-                    Console.WriteLine("Kova");
-                }
-
-
-
-            }
-            if (ay.Equals("Mart"))
-            {
-                if (gun > 21)
-                {
-                    Console.WriteLine("koç");
-                }
-                else
-                {
-                    Console.WriteLine("Balık");
-                }
-
-
-
-            }
-            if (ay.Equals("Nisan"))
-            {
-                if (gun > 21)
-                {
-                    Console.WriteLine("Boğa");
-                }
-                else
-                {
-                    Console.WriteLine("koç");
-                }
-
-
-
-            }
-            if (ay.Equals("Mayıs"))
-            {
-                if (gun > 22)
-                {
-                    Console.WriteLine("İkizler");
-                }
-                else
-                {
-                    Console.WriteLine("Boğa");
-                }
-
-
-
-            }
-            if (ay.Equals("Haziran"))
-            {
-                if (gun > 22)
-                {
-                    Console.WriteLine("Yengeç");
-                }
-                else
-                {
-                    Console.WriteLine("İkizler");
-                }
-
-
-
-            }
-            if (ay.Equals("Temmuz"))
-            {
-                if (gun > 22)
-                {
-                    Console.WriteLine("Aslan");
-                }
-                else
-                {
-                    Console.WriteLine("Yengeç");
-                }
-
-
-
-            }
-            if (ay.Equals("Ağustos"))
-            {
-                if (gun > 22)
-                {
-                    Console.WriteLine("Başak");
-                }
-                else
-                {
-                    Console.WriteLine("Aslan");
-                }
-
-
-
-            }
-            if (ay.Equals("Eylül"))
-            {
-                if (gun > 22)
-                {
-                    Console.WriteLine("Terazi");
-                }
-                else
-                {
-                    Console.WriteLine("Başak");
-                }
-
-
-
-            }
-            if (ay.Equals("Ekim"))
-            {
-                if (gun > 22)
-                {
-                    Console.WriteLine("Akrep");
-                }
-                else
-                {
-                    Console.WriteLine("terazi");
-                }
-
-
-
-            }
-            if (ay.Equals("Kasım"))
-            {
-                if (gun > 22)
-                {
-                    Console.WriteLine("Yay");
-                }
-                else
-                {
-                    Console.WriteLine("Akrep");
-                }
-
-
-
-            }
-            if (ay.Equals("Aralık"))
-            {
-                if (gun > 22)
-                {
-                    Console.WriteLine("Oğlak");
-                }
-                else
-                {
-                    Console.WriteLine("Yay");
-                }
-
-
-
-            }
-
-
-
-
-
-
-            //if ((ay== Aralık && gun >= 22) || (ay = 1 && gun = 21))
-            //{
-            //    Console.WriteLine("Oğlak Burcu");
-
-            //}
-            //else if ((ay == 2 && gun == 20) || (ay == 3 && gun == 20))
-            //{
-            //    Console.WriteLine("Balık Burcu");
-
-            //}
 
 
         }
